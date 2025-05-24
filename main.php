@@ -8,7 +8,7 @@ function generateStory($singular_noun, $verb, $color, $distance_unit) {
     $story = "\n The ${singular_noun}s are lovely, ${color}, and deep.\n
 But I have promises to keep,\n
 And ${distance_unit} to go before I ${verb},\n
-And ${distance_unit} to go before I sleep.\n";
+And ${distance_unit} to go before I ${verb}.\n";
 
     return $story;
 }
